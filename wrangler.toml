@@ -1,0 +1,19 @@
+name = "images-upload-example" 
+type = "webpack"
+
+compatibility_date = "2022-04-01"
+
+# Your Cloudflare account ID
+# account_id = ""
+
+workers_dev = true
+
+# Your Cloudflare zone id for a domain
+# zone_id = ""
+# A route within the zone_id
+# routes = [""]
+
+[vars]
+CLOUDFLARE_ACCOUNT_ID = ""
+# Use "wrangler secret put CLOUDFLARE_API_KEY"
+# CLOUDFLARE_API_KEY = ""

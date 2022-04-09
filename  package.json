@@ -1,0 +1,14 @@
+{
+    "name": "cf-worker-images-upload",
+    "private": false,
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Galleu",
+    "license": "MIT",
+    "dependencies": {
+    }
+}
