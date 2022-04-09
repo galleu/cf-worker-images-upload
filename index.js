@@ -34,8 +34,5 @@ async function uploadImage(request) {
         method: "POST",
         headers: { "Authorization": "Bearer " + CLOUDFLARE_API_KEY },
         body: formData
-    }).then(r => r.json()).catch(err => {
-        console.error(err);
-        throw { status: 500, message: "Cloudflare API error" };
     });
 }
